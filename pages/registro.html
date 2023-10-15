@@ -1,0 +1,181 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="shortcut icon" href="../assets/img/DentalClinic.png">
+   <link rel="stylesheet " href="../styles/styles.css"> 
+  
+   <title>Ayuda | Vida dental </title>
+</head>
+<body>
+    <header>
+        <div class="menu">
+       <img src="../assets/img/DentalClinic.png" alt="Logo Vida dental"> 
+        <nav>
+            <ul>
+                <li> <a href="../index.html">Ir al Inicio</a> </li>
+                <li> <a href="../../Proyecto dental/pages/contacto.html">Contacto</a> </li>
+                <li> <a href="../../Proyecto dental/pages/especialidades.html" >Especialidades</a></li>
+                <li> <a href="../../Proyecto dental/pages/nosotros.html"  >Nosotros</a></li>
+                <li> <a href="../../Proyecto dental/pages/registro.html" >Registrarse</a></li>
+
+            </ul>
+        </nav>
+        </div>
+    </header>
+    
+   
+    <main>
+        <div class="form_title"> 
+        <h5>Registrarse</h5>
+        </div>
+        <div class="form_container"></div>  
+        <fieldset class="form_container">
+        <legend>Ingrese sus Datos</legend>
+        <form class="form_container">
+            <label for="nombre">Nombre:</label>	
+            <input type="text"class="form_input" name="Nombre" />
+            <label for="genero">Genero:</label>	
+            <select name="Genero" class="boxsize"> 
+              <option value="M">Masculino</option>
+              <option value="F">Femenino</option>
+              
+            </select>
+         
+            
+                <label for="mail">Mail</label>
+                <input id="mail" class="form_input" name="mail" type="email" placeholder="ejemplo@mail.com" required>
+            
+                 <label for="pass">Contraseña</label>
+                 <input id="pass" class="form_input" name="password" type="password" required>
+             </fieldset>
+           
+            <fieldset class="form_container">
+                <legend>Ingrese los siguientes Datos</legend>
+              
+
+              
+                    <label for="fnac">Fecha de Nacimiento</label>
+                    <input class="boxsize" type="date" required>
+                   
+    
+              
+                    <label for="edad">Indique su Edad</label>
+                    <input class="boxsize" type="number" min=1 max=100 required>
+                    
+                
+                             
+              
+                    <label for="mes"> Mes preferible para cita</label>
+                    <input class="boxsize" type="month">
+                
+                    <label for="mes"> Semana preferile para cita</label>
+                    <input class="boxsize" type="week">
+               
+                </div>
+                
+            </fieldset>
+            <fieldset class="form_container">
+                <legend>Padece alguna enfermedad</legend>
+                <label for="Cncer">Cancer
+                    <input id="Cancer" name="enfermedad" type="checkbox" value="Cancer" checked >
+                </label>
+                <label for="Diabetes">Diabetes
+                    <input id="Diabetes" name="enfermedad" type="checkbox" value="Diabetes" checked>
+                </label>
+                <label for="Hipertension">Hipertension
+                    <input id="Hipertension" name="enfermedad" type="checkbox" value="Hipertension" >
+                </label>
+                <label for="VIH">VIH
+                    <input id="VIH" name="enfermedad" type="checkbox" value="VIH#" >
+                </label>
+                <label for="Hepatitis">Hepatitis
+                    <input id="Hepatitis" name="enfermedad" type="checkbox" value="Hepatitis">
+                </label>
+                <label for="VPH">VPH
+                    <input id="VPH" name="enfermedad" type="checkbox" value="vph">
+                </label>
+    
+            </fieldset>
+            <fieldset class="form_container">
+                <legend>¿Que turno prefiere ?</legend>
+                <label for="matutino">Matutino
+                    <input id="matutino name="un_leng" type="radio" value="matutino"  >
+                </label>
+                <label for="vespertino">Vespertino
+                    <input id="vespertino" name="un_leng" type="radio" value="vespertino" >
+                </label>
+               
+    
+            </fieldset>
+            
+            <fieldset class="form_container">
+                <legend>Residencia</legend>
+                <div>
+                    <label for="prov">Estado de residencia</label>
+                    <select class="boxsize">
+                        <option value="Aguascalientes"selected>Aguascalientes</option>
+                        <option value="Baja California" >Baja California</option>
+                        <option value="Baja California Sur">Baja California Sur</option>
+                        <option value="Campeche">Campeche</option>
+                        <option value="Chiapas">Chiapas</option>
+                        <option value="Chihuahua">Chihuahua</option>
+                        <option value="Coahuila">Coahuila</option>
+                        <option value="Colima">Colima</option>
+                        <option value="Ciudad de Mexico">Ciudad de Mexico</option>
+                        <option value="Durango">Durango</option>
+                        <option value="Guanajuato">Guanajuato</option>
+                        <option value="Guerrero">Guerrero</option>
+                        <option value="Hidalgo">Hidalgo</option>
+                        <option value="Jalisco">Jalisco</option>
+                        <option value="Mexico">Mexico</option>
+                        <option value="Michoacan">Michoacan</option>
+                        <option value="Morelos">Morelos</option>
+                        <option value="Nayarit">Nayarit</option>
+                        <option value="Nuevo Leon">Nuevo Leon</option>
+                        <option value="Oaxaca">Oaxaca</option>
+                        <option value="Puebla">Puebla</option>
+                        <option value="Queretaro">Queretaro</option>
+                        <option value="Quintana Roo">Quintana Roo</option>
+                        <option value="San Luis Potosi">San Luis Potosi</option>
+                        <option value="Sinaloa">Sinaloa</option>
+                        <option value="Sonora">Sonora</option>
+                        <option value="Tabasco">Tabasco</option>
+                        <option value="Tamaulipas">Tamaulipas</option>
+                        <option value="Tlaxcala">Tlaxcala</option>
+                        <option value="Veracruz">Veracruz</option>
+                        <option value="Yucatan">Yucatan</option>
+                        <option value="Zacatecas">Zacatecas</option>
+                       
+                    </select>
+    
+                </div>
+             
+                
+    
+            </fieldset>
+            <fieldset class=" form_container">
+                <legend>Indique un Comentario</legend>
+                <textarea name="comentario" id="comentario" cols="30" rows="10" placeholder="Ingrese un Comentario"></textarea>
+                <br>
+              
+            </fieldset>
+    
+            <div>
+                <fieldset class="form_container">
+                    <legend>Grabe o limpie el formulario</legend>
+                    <input class="boxsize"type="button" value="Cancelar">
+                    <input class="boxsize" type="submit" value="Enviar">
+                    <input class="boxsize" type="reset" value="Limpiar">
+                </fieldset>
+            </div>
+              </form>
+          </form>
+        
+    </main>
+    <footer>
+        <h3>Copy Right 2023 vidadental</h3>
+    </footer>
+
+</body>
+
+</html>
