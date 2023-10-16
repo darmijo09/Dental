@@ -55,18 +55,17 @@ nav ul li a{
     margin-top: auto;
     font-weight: bold;
 }
-nav{
-    float: right;
-}
+
 p{
     font-family: 'Roboto', sans-serif;
     color: antiquewhite;
-   font-size: 18px;
+   font-size: 24px;
   margin: auto;
   margin-bottom: 30px;
 }
 h2{
     color: rgb(228, 215, 215);
+    text-align: center;
 }
 body{
     margin: 0;
@@ -77,7 +76,7 @@ body{
     padding-bottom:1em;
     font-family: 'Montserrat', sans-serif;
 font-family: 'Roboto', sans-serif;
-background: linear-gradient(rgba(5, 7, 12,0.65), rgba(5,7,12,0.75)),  url(../assets/img/Back1.webp) no-repeat center center fixed ;
+background: linear-gradient(rgba(182, 186, 196, 0.65), rgba(177, 183, 196, 0.75)),  url(../assets/img/Back1.webp) no-repeat center center fixed ;
 background-size: cover;
 opacity: 80%;
 
@@ -92,35 +91,35 @@ min-height: 100vh;
 }
 .imageendodoncia
 {
-    background: linear-gradient(rgba(5, 7, 12,0.75), rgba(5,7,12,0.75)),  url(../assets/img/endodoncia.jpg) no-repeat center center fixed ;
+    background: linear-gradient(rgba(109, 110, 110, 0.75), rgba(38, 38, 39, 0.75)),  url(../assets/img/endodoncia.jpg) no-repeat center center fixed ;
 background-size: cover;
 min-height: 50vh;
 margin-bottom: 20px;
 }
 .imageEstetica
 {
-    background: linear-gradient(rgba(5, 7, 12,0.75), rgba(5,7,12,0.75)),  url(../assets/img/esteticaDental.jfif) no-repeat center center fixed ;
+    background: linear-gradient(rgba(124, 125, 126, 0.75), rgba(23, 23, 24, 0.75)),  url(../assets/img/esteticaDental.jfif) no-repeat center center fixed ;
 background-size: cover;
 min-height: 50hv;
 margin-bottom: 20px;
 }
 .imageodontopediatria
 {
-    background: linear-gradient(rgba(5, 7, 12,0.75), rgba(5,7,12,0.75)),  url(../assets/img/odontopediatria.webp) no-repeat center center fixed ;
+    background: linear-gradient(rgba(125, 125, 126, 0.75), rgba(30, 30, 31, 0.75)),  url(../assets/img/odontopediatria.webp) no-repeat center center fixed ;
 background-size: cover;
 min-height: 50hv;
 margin-bottom: 20px;
 }
 .imageortodoncia
 {
-    background: linear-gradient(rgba(5, 7, 12,0.75), rgba(5,7,12,0.75)),  url(../assets/img/ortodoncia.jpg) no-repeat center center fixed ;
+    background: linear-gradient(rgba(121, 121, 122, 0.75), rgba(8, 8, 8, 0.75)),  url(../assets/img/ortodoncia.jpg) no-repeat center center fixed ;
 background-size: cover;
 min-height: 50hv;
 margin-bottom: 20px;
 }
 .imageoimplantologia
 {
-    background: linear-gradient(rgba(5, 7, 12,0.75), rgba(5,7,12,0.75)),  url(../assets/img/Implantologia.jpg) no-repeat center center fixed ;
+    background: linear-gradient(rgba(120, 121, 122, 0.75), rgba(24, 24, 24, 0.75)),  url(../assets/img/Implantologia.jpg) no-repeat center center fixed ;
 background-size: cover;
 min-height: 50hv;
 margin-bottom: 20px;
@@ -206,8 +205,37 @@ color: bisque;
     padding-bottom: 7px;
     
 }
-#map{
-    margin: auto;
-    margin-bottom: 50px;
-    margin-left: 350px;
+.regsitroFont{
+    font-size: 24px;
+
 }
+
+iframe {
+    max-width: 100%;
+    height: auto;
+}
+.mi-iframe {
+    width: 100px;
+    height: 50px;
+  }
+  
+/* CSS pantallas de 320px o superior */
+@media (min-width: 320px) {
+
+    .mi-iframe {
+      width: 200px;
+      height: 150px;
+    } 
+  
+  }
+  
+  /* CSS pantalla 768px o superior */
+  @media (min-width: 768px) {
+  
+    .mi-iframe {
+      width: 500px;
+      height: 350px;
+    } 
+  
+  }
+ 
